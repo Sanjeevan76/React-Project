@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Baskervville SC", serif;
+    font-weight: 10rem;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    opacity: 0.5;
+    color: darkgoldenrod;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+    padding-top: 10px;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: black;
+    
+}
+
+.cart .img{
+    
+}
+
+.cart a{
+    font-size: 1.5rem;
+    background-color: red;
+    color: rgb(220, 210, 210);
+    border-radius: 5%;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.option a{
+    margin-right: 4rem;
+    color: black;
+    font-size: 1.25rem;
+}
+.line{
+    height: 1px;
+   background-color: black;
+    
+}
+
+.heropart{
+    display: flex;
+   justify-content: space-around;
+    padding-top: 23px;
+    padding-left: 22px;
+}
+
+.content h1{
+    color: #588157;
+    font-size: 5rem;
+}
+
+.content h2{
+    color: #3d405b;
+    font-size: 5rem;
+}
+
+.button{
+    padding-top: 40px;
+    
+}
+
+.subscribe{
+    height: 40px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 1rem;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px dotted rgb(71, 42, 42);
+}
+
+.buynow{
+    height: 40px;
+    background-color: red;
+   color: aliceblue;
+    font-size: 1rem;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+    border: 2px dotted rgb(71, 42, 42);
+}
